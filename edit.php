@@ -40,7 +40,7 @@ if (isset($_POST['update'])) {
         <textarea name="description" class="form-control" cols="30" rows="10"><?php echo $description;?></textarea>
         </div>
         <button class="btn-success" name="update">
-          Update
+         Actualizar 
 </button>
       </form>
       </div>

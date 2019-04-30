@@ -14,7 +14,7 @@
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
            <div class="header-logo">
-            <a class="site-logo" href="index.html">
+            <a class="site-logo" href="index.php">
                 <img src="images/Redhat.png" alt="Inicio">
             </a>
         </div>
