@@ -1,5 +1,3 @@
-CREATE DATABASE php_mysql_crud;
-
 use php_mysql_crud;
 
 CREATE TABLE task(
