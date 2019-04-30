@@ -15,7 +15,7 @@
       <div class="container">
            <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo2.png" alt="Inicio">
+                <img src="images/Redhat.png" alt="Inicio">
             </a>
         </div>
         <a class="navbar-brand" href="index.php">Ejemplo de CRUD en OpenShift</a>

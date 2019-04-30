@@ -11,7 +11,7 @@ if (isset($_POST['save_task'])) {
     die("Query Failed.");
   }
 
-  $_SESSION['message'] = 'Task Saved Successfully';
+  $_SESSION['message'] = 'Tarea guardada con éxito';
   $_SESSION['message_type'] = 'success';
   header('Location: index.php');
 

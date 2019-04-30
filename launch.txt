@@ -1,6 +1,9 @@
 oc new-project app2
 oc new-app mariadb MYSQL_USER=user1 MYSQL_PASSWORD=password MYSQL_DATABASE=php_mysql_crud 
-oc rsync database/ mariadb-1-nmdds:/tmp
+sleep 30
+POD=$(oc get pod  | tail -n1 | awk '{print $1}')
+oc rsync database/ $POD:/tmp
+oc rsh $POD sh /tmp/script.sh
 oc new-app https://github.com/jmanuelcalvo/crud.git --name crud
 oc expose svc crud
-mysql -uuser1 -ppassword -h127.0.0.1 < script.sql
+#mysql -uuser1 -ppassword -h127.0.0.1 < script.sql
