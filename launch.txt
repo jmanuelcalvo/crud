@@ -1,0 +1,3 @@
+oc new-project app2
+oc new-app mariadb MYSQL_USER=user1 MYSQL_PASSWORD=password MYSQL_DATABASE=php_mysql_crud 
+oc new-app https://github.com/jmanuelcalvo/crud.git --name crud

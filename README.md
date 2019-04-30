@@ -1,2 +1,4 @@
-# crud
-Ejemplo de aplicación + DB para ejemplos de OpenShift
+# Screenshot
+![](docs/screenshot.png)
+
+Codigo tomado del https://github.com/FaztWeb/php-mysql-crud
